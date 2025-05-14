@@ -1,4 +1,7 @@
-const mobileUserAgent = require('../MobileUserAgent');
+"use strict";
+
+// install dependencies : npm i mobile-user-agent node-fetch
+const mobileUserAgent = require('mobile-user-agent');
 const fetch = global.fetch || require('node-fetch');
 
 async function getIpChickenInfo() {
