@@ -1,0 +1,34 @@
+{
+  "name": "mobile-user-agent",
+  "version": "1.0.0",
+  "description": "A Node.js module to generate random mobile user agent strings for Android and iOS.",
+  "main": "MobileUserAgent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random-user-agent",
+    "random-useragent",
+    "mobile-user-agent",
+    "mobile-useragent",
+    "user-agent",
+    "mobile",
+    "random",
+    "android",
+    "ios",
+    "ua"
+  ],
+  "author": "cmalf <TG: @Djagocuan> (https://github.com/cmalf)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmalf/mobile-user-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cmalf/mobile-user-agent/issues"
+  },
+  "homepage": "https://github.com/cmalf/mobile-user-agent#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
