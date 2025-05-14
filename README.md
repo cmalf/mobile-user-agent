@@ -10,24 +10,24 @@ npm i mobile-user-agent
 
 ## Usage
 ```javascript
-const randomUserAgent = require('mobile-user-agent');
+const mobileUserAgent = require('mobile-user-agent');
 
 // Get a random mobile user agent for either Android or iOS
-const randomUA = randomUserAgent();
+const randomUA = mobileUserAgent();
 console.log(randomUA);
 
 // Get a random Android user agent
-const androidUA = randomUserAgent('android');
+const androidUA = mobileUserAgent('android');
 console.log(androidUA);
 
 // Get a random iOS user agent
-const iosUA = randomUserAgent('ios');
+const iosUA = mobileUserAgent('ios');
 console.log(iosUA);
 ```
 ## API
 ---
 
-### `randomUserAgent(category = 'Random')`
+### `mobileUserAgent(category = 'Random')`
 
 -   `category` (opsional): A string specifying the desired operating system. Can be `'android'`, `'ios'`, or `'Random'` (default). If set to `'Random'` or any other value, it will return a user agent for either Android or iOS randomly.
 

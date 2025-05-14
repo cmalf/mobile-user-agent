@@ -1,10 +1,10 @@
-const randomUserAgent = require('../MobileUserAgent');
+const mobileUserAgent = require('../MobileUserAgent');
 const fetch = global.fetch || require('node-fetch');
 
 async function getIpChickenInfo() {
-  //let AndroidUA = randomUserAgent('android');
-  //let IosUA = randomUserAgent('ios');
-  let RandomUA = randomUserAgent(); // or let RandomUA = randomUserAgent('random');
+  //let AndroidUA = mobileUserAgent('android');
+  //let IosUA = mobileUserAgent('ios');
+  let RandomUA = mobileUserAgent(); // or let RandomUA = mobileUserAgent('random');
 
   try {
     const response = await fetch("https://ipchicken.com/", {

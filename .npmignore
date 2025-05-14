@@ -1,9 +1,0 @@
-node_modules
-.git
-.DS_Store
-test/
-examples/
-coverage/
-test:
-examples:
-coverage:

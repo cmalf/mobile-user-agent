@@ -244,7 +244,7 @@ const buildIds = [
  * Generates a random mobile user agent string for Android (>=10) or iOS (>=17).
  * @returns {string} A random user agent string.
  */
-function randomUserAgent(category = 'Random') {
+function mobileUserAgent(category = 'Random') {
     const lowerCategory = category.toLowerCase();
     let osType;
 
@@ -292,5 +292,5 @@ function randomUserAgent(category = 'Random') {
 }
 
 // Export the function for use as a module (CommonJS format)
-module.exports = randomUserAgent;
+module.exports = mobileUserAgent;
 

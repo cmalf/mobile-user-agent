@@ -1,17 +1,18 @@
 {
   "name": "mobile-user-agent",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A Node.js module to generate random mobile user agent strings for Android and iOS.",
   "main": "MobileUserAgent.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "random-user-agent",
-    "random-useragent",
-    "mobile-user-agent",
-    "mobile-useragent",
-    "user-agent",
+    "random agent",
+    "random user agent",
+    "random mobile agent",
+    "random mobile user agent",
+    "user agent",
+    "mobile user agent",
     "mobile",
     "random",
     "android",
